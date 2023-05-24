@@ -135,6 +135,8 @@
               io.stargate.db.*,
               org.apache.cassandra.stargate,
               org.apache.cassandra.stargate.*,
+              org.apache.cassandra,
+              org.apache.cassandra.*,
               org.javatuples,
             ]]></Import-Package>
             <Export-Package>!*</Export-Package>

@@ -251,7 +251,16 @@
               com.codahale.metrics,
               com.datastax.oss.driver.shaded.guava.common.*,
             ]]></Import-Package>
-            <Export-Package>!*</Export-Package>
+            <Export-Package><![CDATA[
+              !org.apache.cassandra.stargate,
+              !org.apache.cassandra.stargate.*,
+              org.apache.cassandra,
+              org.apache.cassandra.*,
+              org.apache.commons,
+              org.apache.commons.*,
+              com.google.common,
+              com.google.common.*,
+            ]]></Export-Package>
             <Bundle-ClassPath>.,sjk-core-0.14.jar,{maven-dependencies}</Bundle-ClassPath>
             <Embed-Dependency>*;scope=compile|runtime</Embed-Dependency>
             <Embed-Transitive>true</Embed-Transitive>

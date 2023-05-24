@@ -146,6 +146,8 @@
                             io.stargate.db.*,
                             org.apache.cassandra.stargate,
                             org.apache.cassandra.stargate.*,
+                            org.apache.cassandra,
+                            org.apache.cassandra.*,
                             org.javatuples,
                             com.codahale.metrics,
                             io.micrometer.core.*,

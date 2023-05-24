@@ -117,8 +117,6 @@ public class Cassandra40PersistenceActivator extends BaseActivator {
 
     c.cluster_name = clusterName;
     c.num_tokens = Integer.getInteger("stargate.num_tokens", 256);
-    c.commitlog_sync = Config.CommitLogSync.periodic;
-    c.commitlog_sync_period_in_ms = 10000;
     c.internode_compression = Config.InternodeCompression.none;
     c.commitlog_directory = commitLogDir.getAbsolutePath();
     c.hints_directory = hintDir.getAbsolutePath();
